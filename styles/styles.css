@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.button{
+  background-color: #E6533C;
+  font-size: 1.02rem;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 45px;
+  border: none;
+}
+
+.btn-one{
+  background-color: #E6533C;
+  color: white;
+  padding: 16px 40px;
+  border-radius: 42px;
+  font-weight: 600;
+  font-size: 1.02rem;
+  border: none;
+}
+
+.btn-two{
+  background-color: #111111;
+  color: white;
+  padding: 16px 40px;
+  font-weight: 600;
+  font-size: 1.02rem;
+  border-radius: 42px;
+}
+
+.brand{
+  font-weight: 800;
+  font-style: italic;
+  font-size: 2.04rem;
+  color: #E6533C;
+}
+
+.img-btn-one{
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 16px 24px;
+  font-size: 1.23rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+  border: 1px rgba(255, 255, 255, 0.1);
+}
+
+#Workout{
+  font-size: 2.8rem;
+  font-weight: 900;
+  color: white;
+}
+
+/* shared styles */
+.display-flex{
+  display: flex;
+}
+
+.text-gray{
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.text-white{
+  color: rgba(255, 255, 255, 1)
+}
+
+.bg-light{
+  background-color: #111111;
+}
+/* header styles */
+
+
+/* navbar related style */
+.navbar{
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand{
+  font-weight: 800;
+  font-size: 36px;
+}
+
+.nav-item{
+  list-style: none;
+  margin-right: 2.4rem;
+
+}
+.nav-link{
+  text-decoration: none;
+}
+
+.navbar, .jotil{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.jotil{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-title{
+  font-weight: 900;
+  font-size: 4.8rem;
+}
